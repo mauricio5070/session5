@@ -1,0 +1,12 @@
+#Regex-> expreciones regulares
+
+import re
+
+from re import *
+
+
+pattern = r"Cookie"
+sequence = "Cookie"
+if re.match(pattern, sequence):
+  print("Match!")
+else: print("Not a match!")
