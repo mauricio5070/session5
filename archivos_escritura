@@ -19,3 +19,7 @@ while x < 10:
   archivo.write('\n\n')
   x=x+1
 archivo.close()
+
+# mas eficiente#
+# with open('mas_datos.txt', 'a') as f:
+   # f.writelines(['primera linea\n', 'segunda linea\n'])
