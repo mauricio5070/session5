@@ -10,3 +10,7 @@ sequence = "Cookie"
 if re.match(pattern, sequence):
   print("Match!")
 else: print("Not a match!")
+
+
+t='The quick red fox was born in 08/09/2018. The quick fox is young '
+match(r'.*The',t)
